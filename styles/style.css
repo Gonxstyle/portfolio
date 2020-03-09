@@ -1,0 +1,47 @@
+
+body{
+    background-image:url(https://wallpaperset.com/w/full/0/7/2/313022.jpg);
+    background-repeat:no-repeat;
+    background-color: #E1D7D5 0.3 ;
+    opacity: ;
+
+    color: whitesmoke;
+    max-width: 960PX;
+    margin: 0 auto;
+}
+#avatar{
+    float:right;
+}
+#pagina1{
+    margin-top: 6.9% ;
+    width: 960PX;
+height: 500px;
+    
+}
+#pagina2{
+    margin-top: 5%;
+    width: 960PX;
+   height: 700px;
+}
+
+/*damos estilo al menu*/
+#menu{background-color:salmon;}
+#menu ul{list-style:none;}    /*square,none etc*/
+#menu li{background-color:mistyrose;display:inline;padding:10px;}
+#menu a{text-decoration:none;color:brown;
+}
+
+/*tabla currículum*/
+td{
+  border-bottom:2px solid cadetblue;padding:.5em;
+}
+#titulo{
+    text-align: center;
+    margin-left: 20%;
+}
+#logo{
+    float:left;   
+}
+footer{
+    background-color:#454645   ; 
+}
