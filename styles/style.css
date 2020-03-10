@@ -15,13 +15,13 @@ body{
 #pagina1{
     margin-top: 6.9% ;
     width: 960PX;
-height: 500px;
+    height: 500px;
     
 }
 #pagina2{
     margin-top: 5%;
     width: 960PX;
-   height: 700px;
+    height: 700px;
 }
 
 /*damos estilo al menu*/
@@ -43,5 +43,16 @@ td{
     float:left;   
 }
 footer{
-    background-color:#454645   ; 
+    background-color:#454645;
+    margin-top: ;
+    text-decoration:none;color:whitesmoke;  
+}
+#programas1{
+    float:right;
+}
+#programas2{
+    float:left;
+}
+Html{
+    
 }

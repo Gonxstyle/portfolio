@@ -3,7 +3,7 @@
  <head>
  
      <meta charset="utf-8">
-     <title>Inicio|Portfolio</title>     
+     <title>Inicio|Contacto</title>     
  
      <link rel="stylesheet" type="text/css" href="styles/style.css">
    
@@ -17,7 +17,8 @@
             
    
             <div id="titulo">
-            <img src="images/logo.png"width="200"height="100" id="logo"><h1>Gonzalo Abad de la Fuente</h1>
+            <a><img src="images/logo.png"width="200"height="100" id="logo"></a>
+            <h1>Gonzalo Abad de la Fuente</h1>
             <h2>Desarrollo de paginas Web</h2>
 
       
@@ -41,7 +42,57 @@
             </div>
         </header>
      <main>
-      Aquí ira el formulario de contacto
+      <p>Para más información, contacte conmigo rellenando este formulario:</p>
+         <form method="get" action="procesar.php">
+  <fieldset><legend>Rellene los siguientes campos</legend>
+  <div>
+    <label for='nombre'>Escribe tu nombre</label>
+    <input type='text' id='nombre' name='nombre'>
+  </div>
+    <div>
+    <label for='quejas'>Motivo de contacto</label>
+     <textarea id='quejas' name='quejas' placeholder='detalle la razon'></textarea>
+  </div>
+  
+    <div>
+      <p>¿Porque te interesa contactarme?</p>
+   </div>
+     <div>
+        <input type='radio' name='estudios'     value='estudios'>
+        <label for='primaria'>Motivos academicos</label>
+     </div>
+       <div>
+        <input type='radio' name='estudios'     value='estudios'>
+        <label for='secundaria'>Trabajo</label>
+     </div>
+    <div>
+        <input type='radio' name='estudios'     value='estudios'>
+        <label for='bachillerato'>Informacion</label>
+     </div>
+    <div>
+        <input type='radio' name='estudios'     value='estudios'>
+       <label for='estudios-superiores'>Otra cosa</label>
+     </div>
+<div>
+        <input id='carnet' type='checkbox' name='carnet' value='si'>
+       <label for='estudios-superiores'>Poseo habilidades en otros programas de diseño.</label>
+     </div>
+ <div>
+   <label for='provincia'>¿De qué provincia de Castilla la Mancha eres?</label>
+   <select id='provincia' name='provincia'>
+     <option value='albacete'>Albacete</option>
+     <option value='ciudad_real'>Ciudad Real</option>
+     <option value='cuenca'>Cuenca</option>
+     <option value='guadalajara'>Guadalajara</option>
+     <option value='toledo'>Toledo</option>
+   </select>
+</div>
+  <div>
+    <button type='submit'>Enviar</button>
+  </div>
+    </fieldset>
+</form>
+         <iframe src="https://www.google.com/maps/embed?pb=!4v1583834447124!6m8!1m7!1sw7OLEH0hgt18JPbVLZCuLA!2m2!1d40.68180776418082!2d-3.047203526923118!3f151.9322283524724!4f-40.957526205791815!5f1.5216500281572274" width="560" height="315" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
          
     </main>  
         
