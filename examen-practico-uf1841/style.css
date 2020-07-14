@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #0D0301;
+    background-color: #D9AA8F;
+    font-family: verdana,sans-serif;
+}
+h1{
+    text-align: center;
+    background-color: #401212;
+    color: #D9AA8F;
+    padding: 1em;
+    margin-bottom: 1em;   
+}
+h2{
+   text-decoration: underline; 
+}
+    
